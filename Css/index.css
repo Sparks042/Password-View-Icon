@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+body{
+    background-color: blueviolet;
+}
+label{
+    font-size: 19px;
+}
+input{
+    text-indent: 14px;
+    height: 35px;
+    width: 38%;
+    border-radius: 2px;
+    border: none;
+    margin-top: 1px;
+}
+input:focus{
+    text-indent: 10px;
+    outline: none;
+    font-weight: 300;
+}
+::placeholder{
+    color: rgb(166, 166, 192);
+    text-indent: 10px;
+    font-weight: 400;
+}
+.form{
+    margin: 18% 0 0 41%;
+}
+#password-icon{
+    margin-left: -6%;
+}
+#confirm-password-icon{
+    margin-left: -6%;
+}
+
+
+@media (max-width: 600px){
+    input{
+        width: 80%;
+    }
+    .form{
+        margin: 64% 0 0 17%;
+    }
+    #password-icon{
+        margin-left: -10%;
+    }
+    #confirm-password-icon{
+        margin-left: -10%;
+
+    }
+}
+
